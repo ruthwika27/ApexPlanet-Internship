@@ -47,7 +47,7 @@ task-1
 
 ## 🔗 Live Links
 
-- 📽️ **LinkedIn Video Demo**: [*Paste your LinkedIn video link here*]  
+- 📽️ **LinkedIn Video Demo**: [https://www.linkedin.com/posts/ruthwika2005_apexplanet-internshipproject-task1-activity-7353425339928264705-LHr-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE7CtAMBog5Y5eDlQAnbW1G_81TaWyGSfl4]  
 - 💻 **GitHub Repository**: [https://github.com/ruthwika27/ApexPlanet-Internship-/tree/main/task-1]
 
 ---
