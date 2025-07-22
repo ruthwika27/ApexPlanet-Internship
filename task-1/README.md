@@ -19,7 +19,9 @@ To build a simple, interactive, and styled web page using the basics of:
 ## 📁 Project Structure
 task1/
 ├── index.html # Main HTML file
+
 ├── style.css # Styling with CSS
+
 └── script.js # JavaScript interactivity
 
 ---
@@ -45,7 +47,7 @@ task1/
 ## 🔗 Live Links
 
 - 📽️ **LinkedIn Video Demo**: [*Paste your LinkedIn video link here*]  
-- 💻 **GitHub Repository**: [*Paste your GitHub repo link here*]
+- 💻 **GitHub Repository**: [https://github.com/ruthwika27/ApexPlanet-Internship-/tree/main/task-1]
 
 ---
 
