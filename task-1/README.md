@@ -17,7 +17,8 @@ To build a simple, interactive, and styled web page using the basics of:
 ---
 
 ## 📁 Project Structure
-task1/
+task-1
+
 ├── index.html # Main HTML file
 
 ├── style.css # Styling with CSS
