@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 2 - Contact & To-Do</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🌐 ApexPlanet Internship - Task 2</h1>
+    <p>Contact Form | Responsive Layout | Advanced To-Do List</p>
+  </header>
+
+  <main>
+    <!-- Contact Form Section -->
+    <section class="card">
+      <h2>📬 Contact Form</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your Name" />
+        <span class="error" id="nameError"></span>
+
+        <input type="email" id="email" placeholder="Your Email" />
+        <span class="error" id="emailError"></span>
+
+        <textarea id="message" placeholder="Your Message"></textarea>
+        <span class="error" id="messageError"></span>
+
+        <button type="submit">Submit</button>
+        <p id="successMsg"></p>
+      </form>
+    </section>
+
+    <!-- To-Do List Section -->
+    <section class="card">
+      <h2>📝 To-Do List</h2>
+      <input type="text" id="todoInput" placeholder="Add a new task..." />
+      <button onclick="addTask()">Add Task</button>
+      <p id="counter"></p>
+      <ul id="tasks"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
