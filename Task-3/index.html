@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task 3 - ApexPlanet Internship</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="bg-primary text-white text-center py-4 mb-4">
+    <h1>Task 3 - Web Project</h1>
+    <p class="lead">Carousel | Quiz | Joke API | Responsive Design</p>
+  </header>
+
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Image Carousel Section -->
+      <div class="col-md-4 mb-4">
+
+        <h3 class="text-center mb-3">Image Carousel</h3>
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pe60qEjEVFYytP_-GnWy6_7fEt0-e_PKWw&s" class="d-block w-100" alt="Image 1">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkzPwaMKU7R5x6jGYfJ2W-LopV5J3IrbmKow&s" class="d-block w-100" alt="Image 2">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSzqVrQrqYzkWuINRPQoCKEkeLlijnu9r9uw&s" class="d-block w-100" alt="Image 3">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTccqtPNhnSVM3S-Msan-MAqcD6laGxI2Dngw&s" class="d-block w-100" alt="Image 4">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbSkD4L2_YRvY2FCt_zvPADi-JoBPThyJwFozSXGgCWBJy1axcnTzrdMJjmtZt2ebzGmE&usqp=CAU" class="d-block w-100" alt="Image 5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Quiz Section -->
+      <div class="col-md-4 mb-4">
+
+        <h3 class="text-center mb-3">Quiz</h3>
+        <div class="card p-3 shadow-sm">
+          <p id="question" class="fw-bold"></p>
+          <div id="options" class="mb-3"></div>
+          <button id="quiz-next" class="btn btn-sm btn-primary">Next Question</button>
+          <p id="feedback" class="mt-2 fw-semibold"></p>
+        </div>
+      </div>
+
+      <!-- Joke Section -->
+      <div class="col-md-4 mb-4 text-center">
+
+        <h3 class="mb-3">Jokes Section</h3>
+        <img src="https://cdn-icons-png.flaticon.com/512/3159/3159066.png" alt="Joke" style="width: 100px;" />
+        <p class="my-3">Click below to view funny jokes fetched from an API!</p>
+        <a href="jokes.html">
+          <button class="btn btn-warning">Go to Joke Page</button>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
